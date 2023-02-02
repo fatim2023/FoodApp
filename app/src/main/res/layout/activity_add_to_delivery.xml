@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3F9785"
+    tools:context=".AddToDeliveryActivity">
+
+
+
+  <TextView
+      android:layout_margin="32dp"
+      android:textSize="28dp"
+      android:layout_gravity="center"
+      android:textColor="#ffffff"
+      android:text="Add Delivery Information"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+  </TextView>
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/search_bg"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Your  Name"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/search_bg"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Your  Phone"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/search_bg"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Your Address"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:onClick="add"
+            android:text="Add"
+            android:layout_marginTop="22dp"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:background="@drawable/search_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

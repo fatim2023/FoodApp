@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F9785"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="16dp"
+        android:id="@+id/foods"
+        android:layout_margin="16dp"
+        android:background="@drawable/search_bg"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:text="Foods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="16dp"
+        android:id="@+id/fav"
+        android:layout_margin="16dp"
+        android:textAllCaps="false"
+        android:background="@drawable/search_bg"
+        android:textSize="22sp"
+        android:text="Favourite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="16dp"
+        android:id="@+id/order"
+        android:layout_margin="16dp"
+        android:textAllCaps="false"
+        android:background="@drawable/search_bg"
+        android:textSize="22sp"
+        android:text="Orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="16dp"
+        android:id="@+id/about"
+        android:layout_margin="16dp"
+        android:textAllCaps="false"
+        android:background="@drawable/search_bg"
+        android:textSize="22sp"
+        android:text="About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>
